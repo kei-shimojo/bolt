@@ -21,16 +21,6 @@ $phone-width: 766px;
     font-family: 'Raleway', 'Lato', sans-serif;
     max-width: 1200px;
     margin: 0 auto;
-
-    // @media screen and (max-width: $tab-width) {
-    //     width: 1199px;
-    //     margin: 0 auto;
-    // }
-
-    // @media screen and (max-width: $phone-width) {
-    //     width: 766px;
-    //     margin: 0 auto;
-    // }
 }
 
 .head {
@@ -325,75 +315,81 @@ $phone-width: 766px;
             opacity: 0.7;
             line-height: 120px;
             cursor: pointer;
-        }
+
+            @media screen and (max-width: $phone-width) {
+                float: none;
+                margin: 0 auto;
+            }
+
             &:hover {
                 opacity: 1;
                 background-color: #fff;
             }
-
-        &__facebook {
-            float: left;
-            font-size: 50px;
-            color: #74cfae;
-            width: 185px;
-            height: 120px;
-            opacity: 0.7;
-            line-height: 120px;
-            cursor: pointer;
         }
 
-        .facebook:hover {
-            opacity: 1;
-            background-color: #fff;
-        }
+    //     &__facebook {
+    //         float: left;
+    //         font-size: 50px;
+    //         color: #74cfae;
+    //         width: 185px;
+    //         height: 120px;
+    //         opacity: 0.7;
+    //         line-height: 120px;
+    //         cursor: pointer;
+    //     }
 
-        .dribbble {
-            float:left;
-            font-size: 50px;
-            color: #74cfae;
-            width: 185px;
-            height: 120px;
-            opacity: 0.7;
-            line-height: 120px;
-            cursor: pointer;
-        }
+    //     .facebook:hover {
+    //         opacity: 1;
+    //         background-color: #fff;
+    //     }
 
-        .dribbble:hover {
-            opacity: 1;
-            background-color: #fff;
-        }
+    //     .dribbble {
+    //         float:left;
+    //         font-size: 50px;
+    //         color: #74cfae;
+    //         width: 185px;
+    //         height: 120px;
+    //         opacity: 0.7;
+    //         line-height: 120px;
+    //         cursor: pointer;
+    //     }
 
-        .twitter {
-            float:left;
-            font-size: 50px;
-            color: #74cfae;
-            width: 185px;
-            height: 120px;
-            opacity: 0.7;
-            line-height: 120px;
-            cursor: pointer;
-        }
+    //     .dribbble:hover {
+    //         opacity: 1;
+    //         background-color: #fff;
+    //     }
 
-        .twitter:hover {
-            opacity: 1;
-            background-color: #fff;
-        }
+    //     .twitter {
+    //         float:left;
+    //         font-size: 50px;
+    //         color: #74cfae;
+    //         width: 185px;
+    //         height: 120px;
+    //         opacity: 0.7;
+    //         line-height: 120px;
+    //         cursor: pointer;
+    //     }
 
-        .envelope {
-            float:left;
-            font-size: 50px;
-            color: #74cfae;
-            width: 185px;
-            height: 120px;
-            opacity: 0.7;
-            line-height: 120px;
-            cursor: pointer;
-        }
+    //     .twitter:hover {
+    //         opacity: 1;
+    //         background-color: #fff;
+    //     }
 
-        .envelope:hover {
-            opacity: 1;
-            background-color: #fff;
-        }
+    //     .envelope {
+    //         float:left;
+    //         font-size: 50px;
+    //         color: #74cfae;
+    //         width: 185px;
+    //         height: 120px;
+    //         opacity: 0.7;
+    //         line-height: 120px;
+    //         cursor: pointer;
+    //     }
+
+    //     .envelope:hover {
+    //         opacity: 1;
+    //         background-color: #fff;
+    //     }
     }
 }
 
@@ -409,172 +405,172 @@ $phone-width: 766px;
     padding-right: 20px;
 }
 
-@media screen and (max-width: 1199px) {
+// @media screen and (max-width: 1199px) {
 
-    img{
-        max-width: 100%;
-        height: auto;
-        width: auto;
-    }
+//     img{
+//         max-width: 100%;
+//         height: auto;
+//         width: auto;
+//     }
 
-    .inner {
-        max-width: 1199px;
-        margin: 0 auto;
-    }
+//     .inner {
+//         max-width: 1199px;
+//         margin: 0 auto;
+//     }
 
-    .head {
-        position: relative;
-        background-color: #fff;
-        width: 767px;
-        margin: 0 auto;
-    }
+//     .head {
+//         position: relative;
+//         background-color: #fff;
+//         width: 767px;
+//         margin: 0 auto;
+//     }
 
-    .iphone {
-        float: none;
-        margin: 0 auto;
-        padding-top: 50px;
-        padding-bottom: 20px;
-    }
+//     .iphone {
+//         float: none;
+//         margin: 0 auto;
+//         padding-top: 50px;
+//         padding-bottom: 20px;
+//     }
 
-    .word4 {
-        margin-bottom: 25px;
-    }
+//     .word4 {
+//         margin-bottom: 25px;
+//     }
 
-    .about_word_box {
-        width: 100%;
-        margin: 0 auto;
-    }
+//     .about_word_box {
+//         width: 100%;
+//         margin: 0 auto;
+//     }
 
-    .jacket1 {
-        text-align: center;
-        width: auto;
-        height: auto;
-    }
+//     .jacket1 {
+//         text-align: center;
+//         width: auto;
+//         height: auto;
+//     }
 
-    // .jacket1_1 {
-    //     float: none;
-    //     background-image: url(../img/01.jpg);
-    //     background-repeat: no-repeat;
-    //     height: 300px;
-    //     width: 300px;
-    // }
+//     .jacket1_1 {
+//         float: none;
+//         background-image: url(../img/01.jpg);
+//         background-repeat: no-repeat;
+//         height: 300px;
+//         width: 300px;
+//     }
 
-    // .jacket1_2 {
-    //     float: none;
-    //     background-image: url(../img/02.jpg);
-    //     background-repeat: no-repeat;
-    //     height: 300px;
-    //     width: 300px;
-    // }
+//     .jacket1_2 {
+//         float: none;
+//         background-image: url(../img/02.jpg);
+//         background-repeat: no-repeat;
+//         height: 300px;
+//         width: 300px;
+//     }
 
-    // .jacket1_3{
-    //     float: none;
-    //     background-image: url(../img/03.jpg);
-    //     background-repeat: no-repeat;
-    //     height: 300px;
-    //     width: 300px;
-    // }
+//     .jacket1_3{
+//         float: none;
+//         background-image: url(../img/03.jpg);
+//         background-repeat: no-repeat;
+//         height: 300px;
+//         width: 300px;
+//     }
 
-    .jacket1_1,
-    .jacket1_2,
-    .jacket1_3 {
-        margin: 0 auto;
-    }
+//     .jacket1_1,
+//     .jacket1_2,
+//     .jacket1_3 {
+//         margin: 0 auto;
+//     }
 
-    .jacket2 {
-        text-align: center;
-        width: auto;
-        height: auto;
-    }
+//     .jacket2 {
+//         text-align: center;
+//         width: auto;
+//         height: auto;
+//     }
 
-    .jacket2_1 {
-        float: none;
-        background-image: url(../img/04.jpg);
-        background-repeat: no-repeat;
-        height: 300px;
-        width: 300px;
-    }
+//     .jacket2_1 {
+//         float: none;
+//         background-image: url(../img/04.jpg);
+//         background-repeat: no-repeat;
+//         height: 300px;
+//         width: 300px;
+//     }
 
-    .jacket2_2 {
-        float: none;
-        background-image: url(../img/05.jpg);
-        background-repeat: no-repeat;
-        height: 300px;
-        width: 300px;
-    }
+//     .jacket2_2 {
+//         float: none;
+//         background-image: url(../img/05.jpg);
+//         background-repeat: no-repeat;
+//         height: 300px;
+//         width: 300px;
+//     }
 
-    .jacket2_3 {
-        float: none;
-        background-image: url(../img/06.jpg);
-        background-repeat: no-repeat;
-        height: 300px;
-        width: 300px;
-    }
+//     .jacket2_3 {
+//         float: none;
+//         background-image: url(../img/06.jpg);
+//         background-repeat: no-repeat;
+//         height: 300px;
+//         width: 300px;
+//     }
 
-    .jacket2_1,
-    .jacket2_2,
-    .jacket2_3 {
-        margin: 0 auto;
-    }
+//     .jacket2_1,
+//     .jacket2_2,
+//     .jacket2_3 {
+//         margin: 0 auto;
+//     }
 
-    .word6 {
-        float: none;
-    }
+//     .word6 {
+//         float: none;
+//     }
 
-    .email_btn {
-        float: none;
-        margin: 0 auto;
-        padding-bottom: 70px;
-    }
+//     .email_btn {
+//         float: none;
+//         margin: 0 auto;
+//         padding-bottom: 70px;
+//     }
 
-    .javascript,
-    .bootstrap,
-    .wordpress,
-    .photoshop {
-        float: none;
-        margin: 0 auto;
-    }
-    .word9 {
-        max-width: 767px;
-        text-align: right;
-        margin: 0 auto;
-    }
-}
+//     .javascript,
+//     .bootstrap,
+//     .wordpress,
+//     .photoshop {
+//         float: none;
+//         margin: 0 auto;
+//     }
+//     .word9 {
+//         max-width: 767px;
+//         text-align: right;
+//         margin: 0 auto;
+//     }
+// }
 
-@media screen and (max-width: 766px) {
-    img{
-        max-width: 100%;
-        height: auto;
-        width: auto;
-    }
+// @media screen and (max-width: 766px) {
+//     img{
+//         max-width: 100%;
+//         height: auto;
+//         width: auto;
+//     }
 
-    .inner {
-        max-width: 400px;
-        margin: 0 auto;
-    }
+//     .inner {
+//         max-width: 400px;
+//         margin: 0 auto;
+//     }
 
-    .head {
-        position: relative;
-        background-color: #fff;
-        width: 400px;
-        margin: 0 auto;
-    }
+//     .head {
+//         position: relative;
+//         background-color: #fff;
+//         width: 400px;
+//         margin: 0 auto;
+//     }
 
-    .word1 {
-        font-size: 80px;
-        padding: 160px 0 20px 0;
-    }
+//     .word1 {
+//         font-size: 80px;
+//         padding: 160px 0 20px 0;
+//     }
 
-    .word2 {
-        font-size: 30px;
-        padding-bottom: 130px;
-    }
+//     .word2 {
+//         font-size: 30px;
+//         padding-bottom: 130px;
+//     }
 
-    .facebook,
-    .dribbble,
-    .twitter,
-    .envelope {
-        float: none;
-        margin: 0 auto;
-    }
-}
+//     .facebook,
+//     .dribbble,
+//     .twitter,
+//     .envelope {
+//         float: none;
+//         margin: 0 auto;
+//     }
+// }
